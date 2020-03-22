@@ -11,6 +11,6 @@ class TestGeneratePdf(unittest.TestCase):
         self.assertTrue(False)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     setup_logging()
     unittest.main()

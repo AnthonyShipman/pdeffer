@@ -13,7 +13,6 @@ def generate_pdf(source_dir: str, dest_dir: str) -> None:
     files = [f for f in listdir(source_dir) if isfile(join(source_dir, f))]
     print(files)
 
-
     # TODO grab files that start with numbers
     # TODO sort files that start by number numerically
     logger.info(f"The following files will be combined to create PDF: {files}")
